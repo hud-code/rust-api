@@ -1,4 +1,11 @@
+[package]
+name = "rust-api"
+version = "0.1.0"
+edition = "2018"
+
 [dependencies]
+rocket =  "0.4.7"
+
 trust-graph = "0.2.7"
 fluence-identity = "0.3.0"
 air-interpreter-wasm = "0.10.7"
