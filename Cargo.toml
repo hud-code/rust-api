@@ -16,9 +16,9 @@ async-std = { version = "1.6.5", features = ["unstable"] }
 
 humantime-serde = "1.0.1"
 
-log = "0.4.11"
-# env_logger = "0.7.1"
-# clap = "3.0.0-beta.2"
+# log = "0.4.11"
+env_logger = "0.7.1"
+clap = "3.0.0-beta.2"
 # prometheus = "0.9.0"
 # tide = "0.16.0"
 # bs58 = "0.3.1"
