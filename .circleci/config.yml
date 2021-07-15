@@ -6,7 +6,7 @@ orbs:
 jobs:
   Build:
     docker:
-      - image: cimg/rust:1.52.0
+      - image: cimg/rust:1.51.0
     resource_class: xlarge
     steps:
       - checkout
